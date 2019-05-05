@@ -1,0 +1,36 @@
+﻿@model List<MVC_Project.Models.Option>
+@{
+    ViewBag.Title = "Option";
+}
+
+<body style="background-color:lightcoral; color:brown;">
+
+
+    <div class="container" align="center">
+        <h2 align="center" style="font-size:50px; color:white;"><b>Ticket Options</b></h2>
+        @foreach (var option in Model)
+        {
+            <div class="card" style="float:left; border: double white 5px; margin: 15px; min-width: 225px; height:325px" align="center">
+                <img src="@option" class="card-img-top" alt="..." style="max-height:300px; width:225px; padding-bottom:0em" />
+                <div class="card-body" style="background-color:crimson;">
+                    <div class="card" style="width:30rem; ">
+                        <h5 class="card-title" style="font-size:25px; width:100%; margin-top:4px">
+                            <b>@option.type</b>
+                            $@option.price
+                        </h5>
+
+                        <p class="card-text" style="font-size:15px; height: 40px;">
+                            @option.description
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="row"></div>
+
+    </div>
+
+
+</body>
+
+
