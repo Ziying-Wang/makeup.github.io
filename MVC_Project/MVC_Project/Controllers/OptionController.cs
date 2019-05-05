@@ -16,7 +16,7 @@ namespace MVC_Project.Controllers
             {
                 type = "Daily Ticket",
                 price = "64.99",
-                description = "",
+                description = "Enjoy Over 45 Rides, Shows & Attractions.",
                 img = @"daily.png"
             };
 
@@ -24,7 +24,7 @@ namespace MVC_Project.Controllers
             {
                 type = "Season Pass",
                 price = "79.99",
-                description = "",
+                description = "Enjoy Over 45 Rides, Shows & Attractions; Unlimited Visits for all of 2019; Includes BOTH Fright Fest and Holiday in the Park admission; Includes admission at ALL Six Flags theme parks; Free tickets for friends on Celebration days.",
                 img = @"season.png"
             };
 
